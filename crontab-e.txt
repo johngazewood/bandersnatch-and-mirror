@@ -1,0 +1,3 @@
+LC_ALL=en_US.utf8
+1 0 * * * cd /home/pypimirror/bandersnatch-pypimirroring; . venv/bin/activate; banersnatch -c /home/pypimirror/bandersnatch-pypimirroring/bandersnatch.conf mirror; deactivate
+
